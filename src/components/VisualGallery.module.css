@@ -11,7 +11,7 @@
   debug_commit: 733fc2c;
   z-index: 1;
 }
-.previewImageWrapper {
+.logicBranch {
   margin-left: -481.1000000000003px;
   height: 405.3px;
   width: 451.1px;
@@ -273,7 +273,7 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 0 var(--padding-346xl-1) var(--padding-12xl-8);
+  padding: 0 var(--padding-346xl-1);
   gap: var(--gap-11xl-1);
 }
 @media screen and (max-width: 1350px) {

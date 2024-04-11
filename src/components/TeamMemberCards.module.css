@@ -55,8 +55,8 @@
   display: inline-block;
   min-width: 37px;
 }
-.memberNameContainers,
-.memberNameContainersWrapper {
+.inputProcessor,
+.memberNameContainers {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -65,7 +65,7 @@
 .memberNameContainers {
   gap: var(--gap-5xs);
 }
-.memberNameContainersWrapper {
+.inputProcessor {
   padding: var(--padding-9xs) 0 0;
 }
 .memberAvatarsParent {
@@ -73,9 +73,9 @@
   gap: var(--gap-3xs);
   font-size: var(--font-size-lg);
 }
+.areaChart,
 .memberAvatarsParent,
-.memberDetailContainers,
-.memberDetailContainersWrapper {
+.memberDetailContainers {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -84,7 +84,7 @@
   flex-direction: column;
   gap: var(--gap-lg);
 }
-.memberDetailContainersWrapper {
+.areaChart {
   flex-direction: row;
   padding: 0 var(--padding-6xs);
 }
@@ -109,7 +109,7 @@
   min-width: 99px;
   z-index: 1;
 }
-.frameParent,
+.areaChartParent,
 .teamMemberCards,
 .vectorParent {
   display: flex;
@@ -132,12 +132,12 @@
   white-space: nowrap;
   z-index: 1;
 }
-.frameParent,
+.areaChartParent,
 .teamMemberCards {
   flex-direction: column;
   justify-content: flex-start;
 }
-.frameParent {
+.areaChartParent {
   align-self: stretch;
   gap: var(--gap-7xl);
 }

@@ -1,43 +1,43 @@
+.letYourMindContainer1 {
+  width: 100%;
+}
 .letYourMindContainer {
-  flex: 1;
+  width: 578.1px;
   position: relative;
   letter-spacing: 0.04em;
   line-height: 110.6%;
   text-transform: uppercase;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   max-width: 100%;
   z-index: 3;
 }
-.letYourMindExploreNewWorlWrapper {
-  width: 584.1px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-10xs) var(--padding-sm-1);
-  box-sizing: border-box;
-  max-width: 100%;
-  flex-shrink: 0;
-}
 .superDuperGaming {
-  flex: 1;
+  align-self: stretch;
   position: relative;
+  font-size: var(--font-size-lg-7);
   letter-spacing: 0.04em;
   line-height: 185.1%;
-  display: inline-block;
-  max-width: 100%;
+  font-family: var(--font-lato);
   z-index: 1;
 }
-.superDuperGamingExperienceWrapper {
-  align-self: stretch;
+.buttons,
+.buttonsWrapper {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  max-width: 100%;
+}
+.buttons {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xl-3);
+}
+.buttonsWrapper {
+  align-self: stretch;
+  flex-direction: row;
   padding: 0 0 0 var(--padding-10xs);
   box-sizing: border-box;
-  max-width: 100%;
-  flex-shrink: 0;
 }
 .frameChild {
   height: 74px;
@@ -107,23 +107,17 @@
   position: relative;
   min-width: 151px;
 }
-.actionButtons,
-.buttons {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
 .actionButtons {
   width: 464px;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base-2);
+  box-sizing: border-box;
+  max-width: 100%;
   row-gap: 20px;
-}
-.buttons {
-  align-self: stretch;
-  flex-direction: column;
-  gap: var(--gap-31xl-8);
 }
 .customerAvatars {
   flex: 1;
@@ -232,7 +226,7 @@
   gap: var(--gap-12xl);
   z-index: 1;
 }
-.callToAction,
+.frameParent,
 .testimonialsDisplay,
 .testimonialsDisplayWrapper {
   display: flex;
@@ -246,47 +240,15 @@
   padding: 0 var(--padding-10xs);
   box-sizing: border-box;
   font-size: var(--font-size-11xl);
-  font-family: var(--font-ondo);
-}
-.callToAction {
-  width: 605px;
-  flex-direction: column;
-  gap: var(--gap-47xl);
-  flex-shrink: 0;
-  font-size: var(--font-size-lg-7);
-  font-family: var(--font-lato);
-}
-.frameItem {
-  margin-left: -185.10000000000036px;
-  width: 1613.1px;
-  height: 145.7px;
-  position: relative;
-  object-fit: contain;
-  max-width: 130%;
-  flex-shrink: 0;
-  z-index: 1;
 }
 .frameParent {
-  align-self: stretch;
-  display: flex;
+  width: 605px;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-81xl);
-  box-sizing: border-box;
-  gap: var(--gap-lg-2);
-  max-width: 100%;
+  gap: var(--gap-31xl-8);
   text-align: left;
   font-size: var(--font-size-49xl-9);
   color: var(--color-white);
   font-family: var(--font-ondo);
-}
-@media screen and (max-width: 1350px) {
-  .frameParent {
-    padding-left: var(--padding-31xl);
-    padding-right: var(--padding-31xl);
-    box-sizing: border-box;
-  }
 }
 @media screen and (max-width: 800px) {
   .letYourMindContainer {
@@ -294,7 +256,7 @@
     line-height: 61px;
   }
   .buttons {
-    gap: var(--gap-6xl);
+    gap: var(--gap-base);
   }
   .b,
   .b1,
@@ -305,13 +267,8 @@
   .testimonialsDisplay {
     gap: var(--gap-mini);
   }
-  .callToAction {
-    gap: var(--gap-14xl);
-  }
   .frameParent {
-    padding-left: var(--padding-6xl);
-    padding-right: var(--padding-6xl);
-    box-sizing: border-box;
+    gap: var(--gap-6xl);
   }
 }
 @media screen and (max-width: 450px) {
@@ -328,8 +285,5 @@
   .customerAvatars {
     font-size: var(--font-size-lg);
     line-height: 20px;
-  }
-  .callToAction {
-    gap: var(--gap-base);
   }
 }

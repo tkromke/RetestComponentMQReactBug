@@ -43,8 +43,8 @@ const TeamMemberCards: FunctionComponent<TeamMemberCardsType> = ({
         alt=""
         src={rectangle9}
       />
-      <div className={styles.frameParent}>
-        <div className={styles.memberDetailContainersWrapper}>
+      <div className={styles.areaChartParent}>
+        <div className={styles.areaChart}>
           <div className={styles.memberDetailContainers}>
             <div className={styles.corePhilosophies}>core philosophies</div>
             <div className={styles.memberAvatarsParent}>
@@ -54,7 +54,7 @@ const TeamMemberCards: FunctionComponent<TeamMemberCardsType> = ({
                 alt=""
                 src={memberAvatars}
               />
-              <div className={styles.memberNameContainersWrapper}>
+              <div className={styles.inputProcessor}>
                 <div className={styles.memberNameContainers}>
                   <div
                     className={styles.cameronWilliamson}

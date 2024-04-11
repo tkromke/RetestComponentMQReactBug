@@ -1,48 +1,58 @@
 import { FunctionComponent } from "react";
-import QuoteBlock from "./QuoteBlock";
 import styles from "./LayerHandler.module.css";
 
 const LayerHandler: FunctionComponent = () => {
   return (
     <section className={styles.layerHandler}>
-      <div className={styles.testimonialContainer}>
-        <div className={styles.quoteBlockParent}>
-          <QuoteBlock
-            quoteBox="/quote-box@2x.png"
-            oneOfTheStandoutFeaturesO="One of the standout features of this gaming website is its extensive library of game guides and tutorials. It has helped me level up my skills, conquer challenging quests, and discover hidden secrets within games. The guides are comprehensive, easy to follow, and have undoubtedly elevated my gaming performance."
-            reviewerAvatars="/ellipse-12@2x.png"
-            arleneMcCoy="Arlene McCoy"
-            mcDonalds="McDonald's"
-          />
-          <QuoteBlock
-            quoteBox="/rectangle-21@2x.png"
-            oneOfTheStandoutFeaturesO="Another aspect that sets this website apart is its vibrant and passionate community. The forum section provides a platform for gamers from all walks of life to connect, share their experiences, and discuss their favorite titles. I've made valuable friendships and found like-minded individuals who share my enthusiasm for gaming."
-            reviewerAvatars="/ellipse-13@2x.png"
-            arleneMcCoy="Kathryn Murphy"
-            mcDonalds="General Electric"
-            propColor="#fff"
-            propWidth="235.4px"
-            propLineHeight="110.6%"
-            propMinWidth="89px"
-            propRight="33.7px"
-          />
-        </div>
-        <div className={styles.socialEngagementPanelWrapper}>
-          <div className={styles.socialEngagementPanel}>
-            <div className={styles.socialMediaIcons}>
-              <img
-                className={styles.socialMediaIconsChild}
-                alt=""
-                src="/group-39.svg"
-              />
+      <div className={styles.imageInput}>
+        <div className={styles.frameParent}>
+          <div className={styles.frameGroup}>
+            <div className={styles.frameContainer}>
+              <div className={styles.boardWrapper}>
+                <b className={styles.board}>board</b>
+              </div>
+              <div className={styles.aWellDesignedGaming}>
+                A well-designed gaming header often incorporates elements such
+                as game characters, iconic symbols, vibrant colors, and dynamic
+                visuals .
+              </div>
             </div>
-            <img
-              className={styles.engagementIndicatorIcon}
-              alt=""
-              src="/engagement-indicator@2x.png"
-            />
-            <div className={styles.socialEngagementPanelInner}>
-              <img className={styles.frameChild} alt="" src="/group-40.svg" />
+            <div className={styles.contactLabelsWrapper}>
+              <div className={styles.contactLabels}>
+                <div className={styles.company}>company</div>
+                <div className={styles.productsParent}>
+                  <div className={styles.products}>products</div>
+                  <div className={styles.appsGames}>{`apps & games`}</div>
+                  <div className={styles.features}>features</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.copyright2023AllRightsResWrapper}>
+            <div className={styles.copyright2023All}>
+              © Copyright 2023, All Rights Reserved by board
+            </div>
+          </div>
+        </div>
+        <div className={styles.menuColumnsWrapper}>
+          <div className={styles.menuColumns}>
+            <div className={styles.help}>help</div>
+            <div className={styles.supportParent}>
+              <div className={styles.support}>support</div>
+              <div className={styles.about}>about</div>
+              <div className={styles.contactUs}>contact us</div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.imageInputInner}>
+          <div className={styles.resourcesParent}>
+            <div className={styles.resources}>resources</div>
+            <div className={styles.youtubePlaylistParent}>
+              <div className={styles.youtubePlaylist}>youtube playlist</div>
+              <div className={styles.howTo}>how to - blog</div>
+              <div
+                className={styles.termsConditions}
+              >{`terms & conditions`}</div>
             </div>
           </div>
         </div>

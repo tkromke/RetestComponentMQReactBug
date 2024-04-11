@@ -3,20 +3,20 @@ import styles from "./FrameComponent2.module.css";
 
 const FrameComponent2: FunctionComponent = () => {
   return (
-    <header className={styles.ciTestGamingInner}>
-      <div className={styles.boardParent}>
-        <b className={styles.board}>board</b>
-        <div className={styles.frameWrapper}>
-          <div className={styles.productsParent}>
-            <div className={styles.products}>Products</div>
-            <div className={styles.appsGames}>{`Apps & Games`}</div>
-            <div className={styles.features}>features</div>
-            <div className={styles.support}>Support</div>
-            <div className={styles.about}>about</div>
+    <section className={styles.ciTestGamingInner}>
+      <section className={styles.chooseYourFavoriteGamesParent}>
+        <h1 className={styles.chooseYourFavoriteContainer}>
+          <span>{`choose your `}</span>favorite
+          <span> games</span>
+        </h1>
+        <div className={styles.offerSneakPeeksAndPreviewsWrapper}>
+          <div className={styles.offerSneakPeeks}>
+            Offer sneak peeks and previews of upcoming games, including
+            trailers, screenshots, and information about release.
           </div>
         </div>
-      </div>
-    </header>
+      </section>
+    </section>
   );
 };
 

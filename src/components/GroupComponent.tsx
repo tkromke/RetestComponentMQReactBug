@@ -16,7 +16,7 @@ const GroupComponent: FunctionComponent = () => {
             alt=""
             src="/star-1-8@2x.png"
           />
-          <div className={styles.outputContainer}>
+          <div className={styles.shadowMaker}>
             <h2 className={styles.gamingSpaning}>Gaming spaning</h2>
           </div>
         </div>
