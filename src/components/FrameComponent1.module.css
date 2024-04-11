@@ -1,0 +1,335 @@
+.letYourMindContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.letYourMindExploreNewWorlWrapper {
+  width: 584.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) var(--padding-sm-1);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.superDuperGaming {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 185.1%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.superDuperGamingExperienceWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 74px;
+  width: 232px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+}
+.buyNow {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-ondo);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 104px;
+  z-index: 1;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xl) var(--padding-45xl);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-image: url(/public/rectangle-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonItemsChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.playNow {
+  position: absolute;
+  top: 26px;
+  left: 60px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-ondo);
+  text-align: left;
+  min-width: 117px;
+  z-index: 3;
+}
+.buttonItems {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 74px;
+  flex: 1;
+  position: relative;
+  min-width: 151px;
+}
+.actionButtons,
+.buttons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.actionButtons {
+  width: 464px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.buttons {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-31xl-8);
+}
+.customerAvatars {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+}
+.customerAvatarsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-smi-5);
+}
+.uniqueStyle {
+  position: relative;
+  font-size: var(--font-size-lg-7);
+  letter-spacing: 0.04em;
+  line-height: 185.1%;
+  text-transform: capitalize;
+  font-family: var(--font-lato);
+  display: inline-block;
+  min-width: 113px;
+  white-space: nowrap;
+}
+.customerCards {
+  width: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.b {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl);
+}
+.projectFinished {
+  position: relative;
+  font-size: var(--font-size-lg-7);
+  letter-spacing: 0.04em;
+  line-height: 185.1%;
+  text-transform: capitalize;
+  font-family: var(--font-lato);
+  white-space: nowrap;
+}
+.customerCards1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 94px;
+}
+.b1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 110.6%;
+  text-transform: uppercase;
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 var(--padding-11xl-5);
+}
+.happyCustomer {
+  position: relative;
+  font-size: var(--font-size-lg-7);
+  letter-spacing: 0.04em;
+  line-height: 185.1%;
+  text-transform: capitalize;
+  font-family: var(--font-lato);
+  white-space: nowrap;
+}
+.customerCards2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 97px;
+}
+.testimonialsDisplay {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-12xl);
+  z-index: 1;
+}
+.callToAction,
+.testimonialsDisplay,
+.testimonialsDisplayWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.testimonialsDisplayWrapper {
+  width: 474px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-ondo);
+}
+.callToAction {
+  width: 605px;
+  flex-direction: column;
+  gap: var(--gap-47xl);
+  flex-shrink: 0;
+  font-size: var(--font-size-lg-7);
+  font-family: var(--font-lato);
+}
+.frameItem {
+  margin-left: -185.10000000000036px;
+  width: 1613.1px;
+  height: 145.7px;
+  position: relative;
+  object-fit: contain;
+  max-width: 130%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-81xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg-2);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-49xl-9);
+  color: var(--color-white);
+  font-family: var(--font-ondo);
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .letYourMindContainer {
+    font-size: var(--font-size-36xl);
+    line-height: 61px;
+  }
+  .buttons {
+    gap: var(--gap-6xl);
+  }
+  .b,
+  .b1,
+  .customerAvatars {
+    font-size: var(--font-size-5xl);
+    line-height: 27px;
+  }
+  .testimonialsDisplay {
+    gap: var(--gap-mini);
+  }
+  .callToAction {
+    gap: var(--gap-14xl);
+  }
+  .frameParent {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .letYourMindContainer {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .playNow {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .b,
+  .b1,
+  .customerAvatars {
+    font-size: var(--font-size-lg);
+    line-height: 20px;
+  }
+  .callToAction {
+    gap: var(--gap-base);
+  }
+}
