@@ -90,7 +90,7 @@ const QuoteBlock: FunctionComponent<QuoteBlockType> = ({
             <div className={styles.frameContainer}>
               <div className={styles.frameGroup}>
                 <img className={styles.frameChild} alt="" src="/group-34.svg" />
-                <div className={styles.verifiedWrapper}>
+                <div className={styles.distributor}>
                   <div className={styles.verified}>Verified</div>
                 </div>
               </div>

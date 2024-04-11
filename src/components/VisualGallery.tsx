@@ -4,7 +4,7 @@ import styles from "./VisualGallery.module.css";
 const VisualGallery: FunctionComponent = () => {
   return (
     <div className={styles.visualGallery}>
-      <div className={styles.previewImageWrapper}>
+      <div className={styles.logicBranch}>
         <img
           className={styles.previewImageIcon}
           loading="lazy"
@@ -24,7 +24,7 @@ const VisualGallery: FunctionComponent = () => {
             className={styles.groupIcon1}
             loading="lazy"
             alt=""
-            src="/group-12.svg"
+            src="/group-11.svg"
           />
           <img className={styles.groupIcon2} alt="" src="/group-2.svg" />
           <img className={styles.groupIcon3} alt="" src="/group-3.svg" />
